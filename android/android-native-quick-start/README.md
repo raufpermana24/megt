@@ -130,7 +130,7 @@ artifacts:
 If you are going to publish your app to Google Play, each uploaded artifact must have a new version. Codemagic allows you to easily automate this process and increment the version numbers for each build. For more information and details, see [here](https://docs.codemagic.io/knowledge-codemagic/build-versioning/).
 
 The prerequisite is a valid **Google Cloud Service Account**. Please follow these steps:
-1. Go to [this guide](https://docs.codemagic.io/knowledge-base/google-services-authentication) and complete the steps in the **Google Play** section.
+1. Go to [this guide](https://docs.codemagic.io/yaml-publishing/google-play/#configure-google-play-api-access) and complete the steps in the **Google Play** section.
 2. Skip to the **Creating a service account** section in the same guide and complete those steps also.
 3. You now have a `JSON` file with the credentials.
 4. Open Codemagic UI and create a new Environment variable `GCLOUD_SERVICE_ACCOUNT_CREDENTIALS`.
