@@ -26,7 +26,9 @@ workflows:
     scripts:
       - name: Install pods
         script: |
-          pod install
+          ls
+          chmod u+x install.sh
+          ./install.sh
       - name: Set up keychain to be used for codesigning using Codemagic CLI 'keychain' command
         script: |
           keychain initialize
